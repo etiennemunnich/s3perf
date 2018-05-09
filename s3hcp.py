@@ -21,10 +21,6 @@ def main():
         bucket = args.bucket
         print ('Destination bucket: ',bucket)
 
-
-esp.cars@yahoo.com.au
-
-
     s3 = boto3.resource( 's3' )
 
     indexfile = open('index.csv', 'w')
