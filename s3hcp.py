@@ -24,7 +24,7 @@ def main():
     s3 = boto3.resource( 's3' )
 
     indexfile = open('index.csv', 'w')
-    indexfile.write('FileName, HFLocation')
+    indexfile.write('FileName, HFLocation/n')
     files = set()
     for f in path:
         
